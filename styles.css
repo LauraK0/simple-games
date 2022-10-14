@@ -1,6 +1,9 @@
 * {
         box-sizing: border-box;
         margin: 0;
+        background-color: black;
+        color: white;
+   
       }
       label,
       input {
@@ -8,7 +11,6 @@
       }
       body {
         font-family: system-ui, sans-serif;
-        background-colour: #ADD8E6;
       }
       a {
         text-decoration: none;
@@ -31,30 +33,20 @@
       body {
         font-family: system-ui, sans-serif;
       }
+              
       a {
         text-decoration: none;
         color: inherit;
       }
+                 
       ul {
         list-style: none;
         padding: 0;
       }
+              
       header {
         padding: 1.5rem;
         background-color: #00008b;
-        color: white;
-      }
-
-      .row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        align-items: center;
-      }
-
-      .right {
-        justify-content: space-between;
-      };
         color: white;
       }
 
