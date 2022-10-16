@@ -8,12 +8,41 @@
   font-family: 'Roboto Flex', sans-serif;
 }
 h1 {
-  font-size:2em;
+  font-size:2.5em;
   margin-top:3em;
   text-align: center;
 }
 h2 {
-  font-size:2em;
-  margin-top:3em;
+  font-size:1.2em;
+  margin-top:2em;
   text-align: center;
+}
+.button-container{
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:1.5em;
+}
+button {
+  background: #ED1E79;
+  justify-content: center;
+  color: white;
+  font-family: 'Cyber', sans-serif;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: 0;
+  min-width: 130px;
+  height: 40px;
+  line-height: 30px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 8% 100%, 0 70%);  
+}
+button:hover {
+  background-color: #0FFFFF;
+  color: #ED1E79;
+  transform: scale(1.01);
 }
