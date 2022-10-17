@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  font-size:2em;
+  margin-top:3em;
+  text-align: center;
+}
+
 .grid {
     width: 180px;
     height: 180px;
