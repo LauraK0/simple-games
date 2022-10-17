@@ -1,16 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+    color: white;
+      font-family: 'Press Start 2P', sans-serif;
+}
+h1 {
+    font-size:1em;
+    margin-top:3em;
+    text-align: center;
+}
+h3 {
+    font-size:1.4em;
+    margin-top:2em;
+    text-align: center;
+}
 .grid {
     width: 606px;
     height: 606px;
     display: flex;
     flex-wrap: wrap;
 }
-
 .square {
     width: 200px;
     height: 200px;
     border: solid black 1px;
 }
-
 .mole {
     background-image: url('./images/mole.jpg');
     background-size: cover;
